@@ -8,7 +8,6 @@ Base = declarative_base()
 
 class Product(Base):
     __tablename__ = 'products'
-
     id = Column(String, primary_key=True)
     price = Column(Float)
 
